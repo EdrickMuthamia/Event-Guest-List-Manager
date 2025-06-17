@@ -22,6 +22,9 @@ document.addEventListener('DOMContentLoaded', () => {
         if (guestList.children.length >= MAX_GUESTS) {
             alert('Guest list is full! Maximum 10 guests allowed.');
             return;
+            
+
+    
         }
 
         const name = guestNameInput.value.trim();
