@@ -16,18 +16,18 @@ document.addEventListener('DOMContentLoaded', () => {
         const name = guestNameInput.value.trim();
         const category = guestCategorySelect.value;
 
-        // Only allow letters and spaces in the name
+        
         if (!name || !/^[a-zA-Z\s]+$/.test(name)) {
             alert('Please enter a valid guest name (letters and spaces only).');
             guestNameInput.value = '';
             return;
         }
 
-        // Create list item
+        
         const li = document.createElement('li');
         li.textContent = `${name} (${category}) `;
 
-        // RSVP button
+        
         const rsvpBtn = document.createElement('button');
         rsvpBtn.textContent = 'Not Attending';
         rsvpBtn.onclick = function () {
@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         };
 
-        // Edit button
+        
         const editBtn = document.createElement('button');
         editBtn.textContent = 'Edit';
         editBtn.onclick = function () {
@@ -50,20 +50,20 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         };
 
-        // Remove button
+        
         const removeBtn = document.createElement('button');
         removeBtn.textContent = 'Remove';
         removeBtn.onclick = () => li.remove();
 
-        // Add buttons to list item
+        
         li.appendChild(rsvpBtn);
         li.appendChild(editBtn);
         li.appendChild(removeBtn);
 
-        // Add to guest list
+        
         guestList.appendChild(li);
 
-        // Reset form
+    
         guestNameInput.value = '';
         guestCategorySelect.value = '';
     });
