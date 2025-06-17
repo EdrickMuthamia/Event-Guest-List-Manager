@@ -3,14 +3,6 @@
 Welcome! This is a simple and user-friendly web app to help you manage your event guest list.
 
 
-- Add guests with name and category (Friend, Family, Colleague)
-- Prevents adding more than 10 guests
-- Prevents numbers as guest names
-- Remove guests from the list
-- Edit guest names
-- Toggle RSVP status (Attending/Not Attending)
-- Color-coded category tags
-
 - **Add Guests:** Type a name and pick a category (Friend, Family, Colleague).
 - **Edit Guests:** Change a guest’s name if you make a mistake.
 - **Remove Guests:** Delete anyone from the list with one click.
