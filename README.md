@@ -10,7 +10,6 @@ A simple, interactive web app to manage your event guest list.
 - Remove guests from the list
 - Edit guest names
 - Toggle RSVP status (Attending/Not Attending)
-- Shows the time each guest was added
 - Color-coded category tags
 
 ## How to Use
