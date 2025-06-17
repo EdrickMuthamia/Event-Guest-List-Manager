@@ -1,70 +1,30 @@
 # Event Guest List Manager
 
-A simple, interactive web app to manage your event guest list.
+Welcome! This is a simple and user-friendly web app to help you manage your event guest list.
 
-## Features
 
-- Add guests with name and category (Friend, Family, Colleague)
-- Prevents adding more than 10 guests
-- Prevents numbers as guest names
-- Remove guests from the list
-- Edit guest names
-- Toggle RSVP status (Attending/Not Attending)
-- Shows the time each guest was added
-- Color-coded category tags
+## What Can You Do?
 
-## How to Use
+- **Add Guests:** Type a name and pick a category (Friend, Family, Colleague).
+- **Edit Guests:** Change a guest’s name if you make a mistake.
+- **Remove Guests:** Delete anyone from the list with one click.
+- **RSVP Toggle:** Mark if a guest is “Attending” or “Not Attending”.
+- **See Category Tags:** Each guest shows a colored tag for their category.
+- **See When Added:** The time each guest was added is displayed.
+- **Guest Limit:** You can add up to 10 guests.
+- **Name Check:** Only names with letters and spaces are allowed.
 
-1. **Enter a guest's name** (text only) and select a category.
-2. **Click "Add Guest"** to add them to the list.
-3. **Use "Edit"** to update a guest's name.
-4. **Use "Remove"** to delete a guest.
-5. **Click "RSVP"** to toggle their attendance status.
+## How To Use
 
-## Getting Started
+1. **Enter a guest’s name** (letters and spaces only).
+2. **Select a category** from the dropdown.
+3. **Click “Add Guest”** to add them to the list.
+4. **Edit:** Click “Edit” to change a guest’s name.
+5. **Remove:** Click “Remove” to delete a guest.
+6. **RSVP:** Click “RSVP” to mark if they’re attending.
 
-1. Clone or download this repository.
-2. Open `index.html` in your browser.
-3. Enjoy managing your guest list!
 
-## Customization
 
-Feel free to modify the styles in `style.css` or add new features in `src/index.js`.
-
-filepath: /home/edrick-muthamia/SDF-FT-14-Hybrid/Phase-1/Js/Event-Guest-List-Manager/README.md 
-
-# Event Guest List Manager
-
-A simple, interactive web app to manage your event guest list.
-
-## Features
-
-- Add guests with name and category (Friend, Family, Colleague)
-- Prevents adding more than 10 guests
-- Prevents numbers as guest names
-- Remove guests from the list
-- Edit guest names
-- Toggle RSVP status (Attending/Not Attending)
-- Shows the time each guest was added
-- Color-coded category tags
-
-## How to Use
-
-1. **Enter a guest's name** (text only) and select a category.
-2. **Click "Add Guest"** to add them to the list.
-3. **Use "Edit"** to update a guest's name.
-4. **Use "Remove"** to delete a guest.
-5. **Click "RSVP"** to toggle their attendance status.
-
-## Getting Started
-
-1. Clone or download this repository.
-2. Open `index.html` in your browser.
-3. Enjoy managing your guest list!
-
-## Customization
-
-Feel free to modify the styles in `style.css` or add new features in `src/index.js`.
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
